@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://b1l54jt37jjdl"]
+
+[ext_resource type="Texture2D" uid="uid://g14ai0y2s8au" path="res://icon.svg" id="1_gkfse"]
+
+[node name="Credits" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 387.0
+offset_top = 202.0
+offset_right = 761.0
+offset_bottom = 356.0
+text = "TP2
+Tianle Chen CHET20020200
+Philippe Caron Bouchard CARP27069900"
+horizontal_alignment = 1
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(348, 357)
+texture = ExtResource("1_gkfse")
+
+[node name="Icon2" type="Sprite2D" parent="."]
+position = Vector2(807, 357)
+texture = ExtResource("1_gkfse")

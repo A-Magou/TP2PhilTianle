@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://dv3q714xdjkbw"]
+
+[ext_resource type="PackedScene" uid="uid://c3y40txkrsmmn" path="res://character_body_2d.tscn" id="1_1u3r7"]
+
+[node name="Level1" type="Node2D"]
+position = Vector2(241, 289)
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_1u3r7")]
+position = Vector2(-141, -161)
+scale = Vector2(0.48, 0.48)
+
+[node name="Label" type="Label" parent="."]
+offset_left = -223.0
+offset_top = -82.0
+offset_right = 17.0
+offset_bottom = -24.0
+text = "Press \"ESC\" to quit with saving
+Press “←→” to change position
+Press \"Enter\" to change scene"
